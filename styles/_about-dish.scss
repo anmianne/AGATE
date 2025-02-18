@@ -1,0 +1,86 @@
+.about-dish {
+    margin-top: 35px;
+
+    &__heading {
+        font-size: $secondary-font;
+    }
+
+    &__description {
+        font-size: 0.72rem;
+        font-weight: 300;
+        margin: 15px 0;
+        line-height: 23px;
+        color: $secondary-color;
+    }
+
+    &__price {
+        font-weight: 700;
+        font-size: 0.72rem;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .about-dish {
+        &__description {
+            font-size: 0.64rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about-dish {
+        &__heading {
+            font-size: $base-font;
+            margin-top: 15px;
+        }
+
+        &__description {
+            font-size: 0.6rem;
+            margin: 19px 0 15px;
+        }
+
+        &__price {
+            font-size: 0.6rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-dish {
+        max-width: 348px;
+        text-align: left;
+        padding-top: 17px;
+        margin: 0 0 0 24px;
+
+        &__description {
+            font-size: 0.8rem;
+            line-height: 25px;
+            margin: 20px 0;
+        }
+
+        &__price {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .about-dish {
+        max-width: 300px;
+        padding: 0;
+        margin: 15px 0 0;
+
+        &__heading {
+            font-size: 0.8rem;
+        }
+
+        &description {
+            margin: 15px 0;
+            font-size: 0.72rem;
+        }
+
+        &price {
+            font-size: 0.72rem;
+        }
+    }
+}

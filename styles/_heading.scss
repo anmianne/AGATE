@@ -1,0 +1,16 @@
+.heading {
+    font-size: 1.6rem;
+    color: $secondary-color;
+}
+
+@media screen and (max-width:1024px) {
+    .heading {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .heading {
+        font-size: 1.2rem;
+    }
+}

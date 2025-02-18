@@ -1,0 +1,49 @@
+.about-chef {
+    background-color: $section-color;
+    padding: 100px 0;
+
+    &__text {
+        font-size: $base-font;
+        margin-bottom: 30px;
+    }
+
+    &__description {
+        font-size: $secondary-font;
+        max-width: 939px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .about-chef {
+        padding: 80px;
+
+        &__text {
+            font-size: 0.88rem;
+        }
+
+        &__description {
+            font-size: 0.88rem;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .about-chef {
+        padding: 70px;
+
+        &__text {
+            font-size: 0.8rem;
+        }
+
+        &__description {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .about-chef {
+        padding: 70px;
+    }
+}

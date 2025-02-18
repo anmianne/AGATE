@@ -1,0 +1,43 @@
+.most-favourite-dishes {
+    padding: 100px 0;
+
+    &__text {
+        font-size: $base-font;
+        margin: 30px 0 60px;
+        color: rgba(71, 71, 71, 1);
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .most-favourite-dishes {
+        padding: 90px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .most-favourite-dishes {
+        padding: 80px;
+
+        &__text {
+            font-size: 0.88rem;
+            margin: 30px 0 48px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .most-favourite-dishes {
+        padding: 70px 24px 70px 52px;
+
+        &__text {
+            font-size: 0.8rem;
+            margin: 20px 0 58px;
+        }
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .most-favourite-dishes {
+        padding: 60px 12px 60px 40px;
+    }
+}
